@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import os
 if os.uname().machine == 'armv7l':
     driver = webdriver.Chrome()
 else:
